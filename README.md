@@ -74,7 +74,6 @@ How to run
 Output
 
     Rule 1:
-    
     match_with_shelter_type(1119800063846, Shelter).
       Ans 	Shelter = sakonakorn_school
             Shelter = western_hospital.
@@ -96,7 +95,6 @@ Output
 
 
     Rule 2:
-    
     available_shelter(Shelter, Capacity).
       Ans 	Shelter = sakonakorn_school,
             Capacity = 2
@@ -143,7 +141,6 @@ Output
 
 
     Rule 3:
-    
     find_possible_shelter(1119800063846, Shelter, Capacity, Person_location, Shelter_location, Distance).
       Ans	  Shelter = sakonakorn_school,
             Capacity = 2,
@@ -188,7 +185,6 @@ Output
 
 
     Rule 4:
-    
     find_min_distance(1119800063846, Distance).
       Ans	  Distance = 10.
       
@@ -215,6 +211,3 @@ Output
             false.
     find_shelter(1118262450340, Shelter).
       Ans	  Shelter = somchai_house.
-		
-
-
