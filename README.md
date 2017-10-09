@@ -27,26 +27,47 @@ Rules
 
 
 How to run
+
     1. Select one of five rule that you want to know.
+    
     2. (Rules1, 3, 4, 5)Input the person_id in the rule
+    
         This  mockup data has 4 person_id.
+	
         person_id(1119800063846).
+	
         person_id(1117599926475).
+	
         person_id(1117947302394).
+	
         person_id(1118262450340).
+	
     3. (Rules 2)Input the shelter in the rule
+    
         This  mockup data has 10 shelter.
+	
         shelter(sakonakorn_school).
+	
         shelter(konkean_school).
+	
         shelter(somsak_house).
+	
         shelter(preeda_house).
+	
         shelter(komkrit_house).
+	
         shelter(western_hospital).
+	
         shelter(benjamaborphit_temple).
+	
         shelter(pathumwan_temple).
+	
         shelter(somsri_house).
+	
         shelter(somchai_house).
+	
     4. Then enter, you will get answer from the output.
+    
 
 
 
