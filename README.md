@@ -93,7 +93,10 @@ Output
             Shelter = pathumwan_temple
             Shelter = somchai_house.  
 
+
+
     Rule 2:
+    
     available_shelter(Shelter, Capacity).
       Ans 	Shelter = sakonakorn_school,
             Capacity = 2
@@ -137,7 +140,10 @@ Output
     available_shelter(somchai_house, Capacity).
       Ans 	Capacity = 15
 
+
+
     Rule 3:
+    
     find_possible_shelter(1119800063846, Shelter, Capacity, Person_location, Shelter_location, Distance).
       Ans	  Shelter = sakonakorn_school,
             Capacity = 2,
@@ -179,7 +185,10 @@ Output
             Shelter_location = kannayao_bangkok_10230,
             Distance = 18.
 
+
+
     Rule 4:
+    
     find_min_distance(1119800063846, Distance).
       Ans	  Distance = 10.
       
@@ -191,6 +200,8 @@ Output
       
     find_min_distance(1118262450340, Distance).
       Ans	  Distance = 18.
+
+
 
     Rule 5:
     find_shelter(1119800063846, Shelter).
