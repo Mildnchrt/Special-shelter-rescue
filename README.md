@@ -72,7 +72,9 @@ How to run
 
 
 Output
+
     Rule 1:
+    
     match_with_shelter_type(1119800063846, Shelter).
       Ans 	Shelter = sakonakorn_school
             Shelter = western_hospital.
