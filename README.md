@@ -1,16 +1,28 @@
 # Special-shelter-rescue
 Rules
+
     There are 5 rules in this prolog.
+    
     1. match_with_shelter_type(Person_id, Shelter).
+    
         - return all shelter that has same type with person type.
+	
     2. available_shelter(Shelter, Capacity).
+    
         - return all shelter that available(Not full).
+	
     3. find_possible_shelter( Person, Shelter, Capacity, Person_location, Shelter_location, Distance).
+    
         - return shelter, capacity, person_location, shelter_location,and distance that be available and match with person type.
+	
     4. find_min_distance(Person_id, Distance).
+    
         - return minimum distance from list of shelter that match with person.
+	
     5. find_shelter(Person_id, Shelter).
+    
         - Return shelter that nearest, available and match with person type.
+	
 
 
 
