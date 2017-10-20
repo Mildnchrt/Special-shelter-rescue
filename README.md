@@ -11,9 +11,9 @@ Rules
     
         - return all shelter that available(Not full).
 	
-    3. find_possible_shelter( Person, Shelter, Capacity, Person_location, Shelter_location, Distance).
+    3. find_possible_shelter( Person, Shelter,Distance).
     
-        - return shelter, capacity, person_location, shelter_location,and distance that be available and match with person type.
+        - return shelter and distance that be available and match with person type.
 	
     4. find_min_distance(Person_id, Distance).
     
@@ -142,44 +142,26 @@ Output
 
     Rule 3:
     find_possible_shelter(1119800063846, Shelter, Capacity, Person_location, Shelter_location, Distance).
-      Ans	  Shelter = sakonakorn_school,
-            Capacity = 2,
-            Person_location = sakonakornville_sakonakorn_75210,
-            Shelter_location = waterhouse_sakonakorn_10160,
+      Ans   Shelter = sakonakorn_school,
             Distance = 10
             false.
             
     find_possible_shelter(1117599926475, Shelter, Capacity, Person_location, Shelter_location, Distance).
-      Ans	  Shelter = somsak_house,
-            Capacity = 10,
-            Person_location = meungkhonkhen_konkean_54910,
-            Shelter_location = chatuchak_bangkok_10900,
+      Ans   Shelter = somsak_house,
             Distance = 566
             Shelter = somsri_house,
-            Capacity = 27,
-            Person_location = meungkhonkhen_konkean_54910,
-            Shelter_location = phra_khanongnuea_bangkok_10110,
             Distance = 548
             false.
             
     find_possible_shelter(1117947302394, Shelter, Capacity, Person_location, Shelter_location, Distance).
-      Ans	  Shelter = benjamaborphit_temple,
-            Capacity = 100,
-            Person_location = lumlukka_pathumtani_12130,
-            Shelter_location = kohpp_puket_11122,
+      Ans   Shelter = benjamaborphit_temple,
             Distance = 1236
             false.
 
     find_possible_shelter(1118262450340, Shelter, Capacity, Person_location, Shelter_location, Distance).
-      Ans	  Shelter = pathumwan_temple,
-            Capacity = 4,
-            Person_location = ramintra_bangkok_10230,
-            Shelter_location = mhoshit_pathumthani_11500,
+      Ans   Shelter = pathumwan_temple,
             Distance = 74
             Shelter = somchai_house,
-            Capacity = 15,
-            Person_location = ramintra_bangkok_10230,
-            Shelter_location = kannayao_bangkok_10230,
             Distance = 18.
 
 
