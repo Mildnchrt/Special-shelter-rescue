@@ -108,13 +108,13 @@ match_with_shelter_type(Person_id, Shelter):- person_type( Person_id, Type ) , s
 
 available_shelter(Shelter, Capacity):- shelter_capacity( Shelter, Capacity ), Capacity > 0.
 
-find_possible_shelter( Person_id, Shelter, Capacity, Person_location, Shelter_location, Distance):-  match_with_shelter_type(Person_id, Shelter),
+find_possible_shelter( Person_id, Shelter, Distance):-  match_with_shelter_type(Person_id, Shelter),
                                                                                                   available_shelter(Shelter, Capacity),
                                                                                                   person_location( Person_id, Person_location ), 
                                                                                                   shelter_location( Shelter, Shelter_location ), 
                                                                                                   distance( Person_location, Shelter_location, Distance ).
 
-find_min_distance(Person_id, Distance):- bagof(Distance, Shelter^Capacity^Person_location^Shelter_location^find_possible_shelter( Person_id, Shelter, Capacity, Person_location, Shelter_location, Distance), 
+find_min_distance(Person_id, Distance):- bagof(Distance, Shelter^Capacity^Person_location^Shelter_location^find_possible_shelter( Person_id, Shelter, Distance), 
                                           List_of_shelter), min_list(List_of_shelter, Distance).
 
 find_shelter(Person_id, Shelter):-  find_min_distance(Person_id, Distance),
