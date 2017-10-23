@@ -141,24 +141,24 @@ Output
 
 
     Rule 3:
-    find_possible_shelter(1119800063846, Shelter, Capacity, Person_location, Shelter_location, Distance).
+    find_possible_shelter(1119800063846, Shelter, Distance).
       Ans   Shelter = sakonakorn_school,
             Distance = 10
             false.
             
-    find_possible_shelter(1117599926475, Shelter, Capacity, Person_location, Shelter_location, Distance).
+    find_possible_shelter(1117599926475, Shelter, Distance).
       Ans   Shelter = somsak_house,
             Distance = 566
             Shelter = somsri_house,
             Distance = 548
             false.
             
-    find_possible_shelter(1117947302394, Shelter, Capacity, Person_location, Shelter_location, Distance).
+    find_possible_shelter(1117947302394, Shelter,  Distance).
       Ans   Shelter = benjamaborphit_temple,
             Distance = 1236
             false.
 
-    find_possible_shelter(1118262450340, Shelter, Capacity, Person_location, Shelter_location, Distance).
+    find_possible_shelter(1118262450340, Shelter, Distance).
       Ans   Shelter = pathumwan_temple,
             Distance = 74
             Shelter = somchai_house,
