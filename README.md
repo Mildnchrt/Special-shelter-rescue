@@ -142,7 +142,7 @@ Output
 
     Rule 3:
     find_possible_shelter(1119800063846, Shelter, Distance).
-      Ans   Shelter = sakonakorn_school,
+      Ans   Shelter = sakonakorn_school,
             Distance = 10
             false.
             
