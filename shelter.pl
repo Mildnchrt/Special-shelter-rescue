@@ -118,6 +118,6 @@ find_min_distance(Person_id, Distance):- bagof(Distance, Shelter^Capacity^Person
                                           List_of_shelter), min_list(List_of_shelter, Distance).
 
 find_shelter(Person_id, Shelter):-  find_min_distance(Person_id, Distance),
-                                    find_possible_shelter( Person_id, Shelter, Capacity, Person_location, Shelter_location, Distance).
+                                    find_possible_shelter( Person_id, Shelter, Distance).
 
 
